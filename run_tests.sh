@@ -16,7 +16,7 @@ for D in tests/qunit/*; do
 done
 echo "QUnit tests complete"
 
-foreman start &
+foreman start -p=3000 &
 sleep 1
 mocha tests/integration/ --recursive --ui tdd --reporter nyan --timeout 10000
 echo "Integration tests complete"
