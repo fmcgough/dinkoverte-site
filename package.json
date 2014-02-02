@@ -1,0 +1,24 @@
+{
+  "name": "dinkoverte-site",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.x",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "zombie": "*",
+    "mocha": "*",
+    "chai": "*",
+    "jshint": "*",
+    "request" : "*",
+    "get": "*"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
+}
