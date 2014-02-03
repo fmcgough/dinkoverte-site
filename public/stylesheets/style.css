@@ -7,3 +7,44 @@ body {
 a {
   color: #00B7FF;
 }
+
+.navbar-blue {
+    background-color: #129FFC;
+    color: #FFFFFF;
+    border-radius: 0;
+}
+
+.navbar-blue .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-blue .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #40B3FF;
+}
+
+.navbar-blue .active  {
+    background-color: #40B3FF;
+}
+
+.navbar-blue .active > li > a:hover, .nav > li > a:focus {
+    background-color: #40B3FF;
+}
+
+.navbar-blue .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-blue .navbar-brand {
+    color:#eeeeee;
+}
+
+.btn-blue {
+    background-color: #129FFC;
+    border-color: #129FFC;
+}
+
+.btn-blue:hover, .btn-blue:active, .btn-blue:focus {
+    background-color: #40B3FF;
+    border-color: #40B3FF;
+}
